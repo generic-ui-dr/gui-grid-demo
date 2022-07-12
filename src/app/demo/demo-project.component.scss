@@ -1,0 +1,60 @@
+//@use '../../../../../../apps/website/src/styles/abstracts/index' as *;
+
+
+gw-demo-project {
+	display: block;
+	margin: 32px auto 0;
+	max-width: 1500px;
+	width: 95%;
+
+	.gui-grid {
+		margin: 20px auto 0;
+		max-width: 1500px;
+
+		@media (max-width: 1330px) {
+			overflow-x: scroll;
+		}
+	}
+}
+
+.gui-label {
+	align-items: center;
+	background: #033c84;
+	border-radius: 4px;
+	color: whitesmoke;
+	display: flex;
+	font-size: 13px;
+	font-weight: 300;
+	height: 22px;
+	justify-content: center;
+	overflow: hidden;
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+}
+
+.gui-label-red {
+	background: #ffebe6;
+	color: #bf2600;
+}
+
+.gui-label-green {
+	background: lighten(#ed1250, 5);
+	color: #fff;
+}
+
+.gui-label-blue {
+	background: lighten(#033c84, 25);
+	color: #fff;
+}
+
+.gui-label-gray {
+	background: #fbc99d;
+	color: #333;
+}
+
+.gui-label-purple {
+	background: lighten(#444, 62);
+	color: #444;
+}
+
